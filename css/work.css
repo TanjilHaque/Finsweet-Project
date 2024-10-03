@@ -1,0 +1,341 @@
+/* ===================================Google Fonts CSS====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ===================================Google Fonts CSS====================================== */
+
+/* ===================================Common CSS====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+nav,
+footer,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: center;
+}
+
+/* ===================================Common CSS====================================== */
+
+/* ===================================root CSS====================================== */
+:root {
+    --primaryColor: #1C1E53;
+    --secondaryColor: #F4F6FC;
+    --whiteColor: #FFFFFF;
+    --fontColor: #282938;
+    --blueColor: #2405F2;
+    --yellowColor: #FCD980;
+    --poppins: "Poppins", sans-serif;
+}
+
+/* ===================================root CSS====================================== */
+
+body {
+    font-family: var(--poppins);
+}
+
+/* ===================================Navbar CSS====================================== */
+.ourCustomClass {
+    background-color: var(--primaryColor);
+    padding: 16px 0;
+}
+
+.customMenuClass {
+    margin-right: 32px;
+    color: #BBBBCB;
+    transition: all linear 0.3s;
+}
+
+.customMenuClass:hover {
+    color: var(--whiteColor);
+}
+
+.customNavbarBtn {
+    margin-left: 16px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background-color: transparent;
+    border: 2px solid #F4F6FC33;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--whiteColor);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.customNavbarBtn:hover {
+    background-color: var(--yellowColor);
+}
+
+/* ===================================Navbar CSS====================================== */
+
+/* ===================================workPortfolio CSS====================================== */
+#workPortfolio{
+    padding: 96px 580px;
+    background-color: var(--secondaryColor);
+}
+.workPortfolio__wrapper-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+.workPortfolio__wrapper-heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--fontColor);
+    padding-top: 4px;
+    padding-bottom: 24px;
+}
+.workPortfolio__wrapper-summary{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+    padding-bottom: 32px;
+}
+.workPortfolio__wrapper-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    gap: 27.84px;
+}
+.workPortfolio__wrapper-icons i{
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.workPortfolio__wrapper-icons i:hover{
+    color: var(--yellowColor);
+}
+
+/* ===================================workPortfolio CSS====================================== */
+
+/* ===================================ourWorkMain CSS====================================== */
+#ourWorkMain{
+    padding: 96px 160px 0 160px;
+    background-color: var(--whiteColor);
+}
+.ourWorkMain__navigator{
+    padding-bottom: 48px;
+}
+.ourWorkMain__navigator-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.ourWorkMain__navigator-items li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--fontColor);
+    opacity: 0.7;
+    transition: 0.5s linear;
+}
+.ourWorkMain__navigator-items li a:hover{
+    color: var(--blueColor);
+    opacity: 1;
+}
+
+.ourWorkMain__template-heading{
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: var(--fontColor);
+}
+.ourWorkMain__template-summary{
+    max-width: 623px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+.ourWorkMain__template-link{
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 64px;
+    color: var(--fontColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all linear 0.5s;
+}
+.ourWorkMain__template-link:hover{
+    color: var(--blueColor);
+}
+/* ===================================ourWorkMain CSS====================================== */
+
+/* ===================================buildSomething CSS====================================== */
+#buildSomething{
+    padding-top: 64px;
+    padding-bottom: 128px;
+    background-color: var(--whiteColor);
+}
+.buildSomething__heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--fontColor);
+}
+.buildSomething__summary{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.buildSomething__btn{
+    padding: 16px 66px;
+    background-color: var(--yellowColor);
+    cursor: pointer;
+    border: none;
+    border-radius: 41px;
+    color: #1B1C2B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    transition: all linear 0.4s;
+}
+.buildSomething__btn:hover{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+/* ===================================buildSomething CSS====================================== */
+
+/* =================================Footer CSS====================================== */
+#footerPart {
+    padding-top: 96px;
+    background-color: var(--primaryColor);
+}
+
+.footerPart__summary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+.footerPart__contactInfo {
+    background-color: var(--yellowColor);
+    max-width: 517px;
+    padding: 17px 137px 16px 37px;
+}
+
+.footerPart__contactInfo-mail-heading,
+.footerPart__contactInfo-phone-heading {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--fontColor);
+    line-height: 32px;
+}
+
+.footerPart__contactInfo-mail-address,
+.footerPart__contactInfo-phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fontColor);
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.footerPartRight__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--whiteColor);
+}
+
+.footerPartRight__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 14px;
+    padding-bottom: 28px;
+
+}
+
+.footerPartRight__icons {
+    display: flex;
+    color: var(--whiteColor);
+    font-size: 16px;
+    gap: 27px;
+}
+
+.footer--icon {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.footer--icon:hover {
+    color: var(--yellowColor);
+}
+
+/* ===================================FooterCSS======================================*/
+
+/* ===================================CopyRightCSS======================================*/
+#copyRight {
+    padding: 32px 0;
+}
+
+.copyRight__title,
+.copyRight__nav-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--fontColor);
+}
+
+.copyRight__nav-list {
+    gap: 32px;
+}
+
+.copyRight__nav-list li {
+    transition: 0.3s ease-in-out;
+}
+
+.copyRight__nav-list li:hover a {
+    color: var(--blueColor);
+}
+
+/* ===================================CopyRightCSS======================================*/

@@ -1,0 +1,391 @@
+/* ===================================Google Fonts CSS====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ===================================Google Fonts CSS====================================== */
+
+/* ===================================Common CSS====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+nav,
+footer,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: center;
+}
+
+/* ===================================Common CSS====================================== */
+
+/* ===================================root CSS====================================== */
+:root {
+    --primaryColor: #1C1E53;
+    --secondaryColor: #F4F6FC;
+    --whiteColor: #FFFFFF;
+    --fontColor: #282938;
+    --blueColor: #2405F2;
+    --yellowColor: #FCD980;
+    --poppins: "Poppins", sans-serif;
+}
+
+/* ===================================root CSS====================================== */
+
+body {
+    font-family: var(--poppins);
+}
+
+/* ===================================Navbar CSS====================================== */
+.ourCustomClass {
+    background-color: var(--primaryColor);
+    padding: 16px 0;
+}
+
+.customMenuClass {
+    margin-right: 32px;
+    color: #BBBBCB;
+    transition: all linear 0.3s;
+}
+
+.customMenuClass:hover {
+    color: var(--whiteColor);
+}
+
+.customNavbarBtn {
+    margin-left: 16px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background-color: transparent;
+    border: 2px solid #F4F6FC33;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--whiteColor);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.customNavbarBtn:hover {
+    background-color: var(--yellowColor);
+}
+
+/* ===================================Navbar CSS====================================== */
+
+/* ===================================caseHero CSS====================================== */
+#caseHero{
+    padding-top: 128px;
+    background-color: var(--whiteColor);
+}
+
+.caseHero__title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--fontColor);
+    opacity: 0.8;
+}
+.caseHero__heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--fontColor);
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+.caseHero__summary{
+    max-width: 817px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+.caseHero__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 48px;
+}
+.info__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.8;
+}
+.info__site{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--fontColor);
+    padding-top: 4px;
+    padding-bottom: 32px;
+}
+.caseHero__info::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    background-color: rgba(40, 41, 56, 0.3);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+/* ===================================caseHero CSS====================================== */
+
+/* ===================================caseProject CSS====================================== */
+#caseProject{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: var(--whiteColor);
+}
+
+.caseProject__heading{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: var(--fontColor);
+}
+.caseProject__summary{
+    max-width: 838px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.caseProject__group img{
+    padding: 64px 0;
+}
+.caseProject__points{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-position: outside;
+    padding-left: 1rem;
+}
+.caseProject__points li{
+    list-style-type: disc;
+    padding-left: 17px;
+}
+.caseProject__points li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+/* ===================================caseProject CSS====================================== */
+
+/* ===================================caseProject CSS====================================== */
+.caseKeywords__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    gap: 53px;
+    position: relative;
+}
+.caseKeywords__items::before{
+    position: absolute;
+    content: '';
+    background-color: rgba(40, 41, 56, 0.2);
+    top: -24px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+.caseKeywords__items::after{
+    position: absolute;
+    content: '';
+    background-color: rgba(40, 41, 56, 0.2);
+    bottom: -24px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+.caseKeywords__items li{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--fontColor);
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.caseKeywords__items li:hover{
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--blueColor);
+    opacity: 1;
+}
+/* ===================================caseProject CSS====================================== */
+
+/* ===================================buildSomething CSS====================================== */
+#buildSomething{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: var(--whiteColor);
+}
+.buildSomething__heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--fontColor);
+}
+.buildSomething__summary{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.buildSomething__btn{
+    padding: 16px 66px;
+    background-color: var(--yellowColor);
+    cursor: pointer;
+    border: none;
+    border-radius: 41px;
+    color: #1B1C2B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    transition: all linear 0.4s;
+}
+.buildSomething__btn:hover{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+/* ===================================buildSomething CSS====================================== */
+
+/* =================================Footer CSS====================================== */
+#footerPart {
+    padding-top: 96px;
+    background-color: var(--primaryColor);
+}
+
+.footerPart__summary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+.footerPart__contactInfo {
+    background-color: var(--yellowColor);
+    max-width: 517px;
+    padding: 17px 137px 16px 37px;
+}
+
+.footerPart__contactInfo-mail-heading,
+.footerPart__contactInfo-phone-heading {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--fontColor);
+    line-height: 32px;
+}
+
+.footerPart__contactInfo-mail-address,
+.footerPart__contactInfo-phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fontColor);
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.footerPartRight__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--whiteColor);
+}
+
+.footerPartRight__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 14px;
+    padding-bottom: 28px;
+
+}
+
+.footerPartRight__icons {
+    display: flex;
+    color: var(--whiteColor);
+    font-size: 16px;
+    gap: 27px;
+}
+
+.footer--icon {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.footer--icon:hover {
+    color: var(--yellowColor);
+}
+
+/* ===================================FooterCSS======================================*/
+
+/* ===================================CopyRightCSS======================================*/
+#copyRight {
+    padding: 32px 0;
+}
+
+.copyRight__title,
+.copyRight__nav-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--fontColor);
+}
+
+.copyRight__nav-list {
+    gap: 32px;
+}
+
+.copyRight__nav-list li {
+    transition: 0.3s ease-in-out;
+}
+
+.copyRight__nav-list li:hover a {
+    color: var(--blueColor);
+}
+
+/* ===================================CopyRightCSS======================================*/

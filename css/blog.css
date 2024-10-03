@@ -1,0 +1,309 @@
+/* ===================================Google Fonts CSS====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ===================================Google Fonts CSS====================================== */
+
+/* ===================================Common CSS====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+nav,
+footer,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: center;
+}
+
+/* ===================================Common CSS====================================== */
+
+/* ===================================root CSS====================================== */
+:root {
+    --primaryColor: #1C1E53;
+    --secondaryColor: #F4F6FC;
+    --whiteColor: #FFFFFF;
+    --fontColor: #282938;
+    --blueColor: #2405F2;
+    --yellowColor: #FCD980;
+    --poppins: "Poppins", sans-serif;
+}
+
+/* ===================================root CSS====================================== */
+
+body {
+    font-family: var(--poppins);
+}
+
+/* ===================================Navbar CSS====================================== */
+.ourCustomClass {
+    background-color: var(--primaryColor);
+    padding: 16px 0;
+}
+
+.customMenuClass {
+    margin-right: 32px;
+    color: #BBBBCB;
+    transition: all linear 0.3s;
+}
+
+.customMenuClass:hover {
+    color: var(--whiteColor);
+}
+
+.customNavbarBtn {
+    margin-left: 16px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background-color: transparent;
+    border: 2px solid #F4F6FC33;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--whiteColor);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.customNavbarBtn:hover {
+    background-color: var(--yellowColor);
+}
+
+/* ===================================Navbar CSS====================================== */
+
+/* ===================================blogHero CSS====================================== */
+#blogHero{
+    padding: 128px 0;
+    background-color: var(--whiteColor);
+}
+
+.blogHeroWrapper__title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--fontColor);
+    max-width: 949px;
+}
+.blogHeroWrapper__status{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.blogHeroWrapper__status-name{
+    opacity: 0.87;
+}
+.blogHeroWrapper__summary{
+    max-width: 831px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    padding-top: 48px;
+    padding-bottom: 16px;
+    opacity: 0.7;
+}
+.blogHeroWrapper__link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--blueColor);
+    transition: 0.3s ease-in-out;
+}
+.blogHeroWrapper__link:hover{
+    color: var(--yellowColor);
+}
+
+/* ===================================blogHero CSS====================================== */
+
+
+/* ===================================Blog CSS====================================== */
+#blog {
+    padding-top: 0px;
+    padding-bottom: 128px;
+}
+
+.blog__heading {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--fontColor);
+}
+
+.blog__date {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+
+.blog__card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--fontColor);
+}
+
+.blog__card-description {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+
+.blog__card-link {
+    display: inline-block;
+    color: var(--fontColor);
+    transition: 0.3s ease;
+    padding-bottom: 64px;
+}
+
+.blog__card-link:hover {
+    color: var(--blueColor);
+}
+
+/* ===================================Blog CSS====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================Footer CSS====================================== */
+#footerPart {
+    padding-top: 96px;
+    background-color: var(--primaryColor);
+}
+
+.footerPart__summary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+.footerPart__contactInfo {
+    background-color: var(--yellowColor);
+    max-width: 517px;
+    padding: 17px 137px 16px 37px;
+}
+
+.footerPart__contactInfo-mail-heading,
+.footerPart__contactInfo-phone-heading {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--fontColor);
+    line-height: 32px;
+}
+
+.footerPart__contactInfo-mail-address,
+.footerPart__contactInfo-phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fontColor);
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.footerPartRight__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--whiteColor);
+}
+
+.footerPartRight__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 14px;
+    padding-bottom: 28px;
+
+}
+
+.footerPartRight__icons {
+    display: flex;
+    color: var(--whiteColor);
+    font-size: 16px;
+    gap: 27px;
+}
+
+.footer--icon {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.footer--icon:hover {
+    color: var(--yellowColor);
+}
+
+/* ===================================FooterCSS======================================*/
+
+/* ===================================CopyRightCSS======================================*/
+#copyRight {
+    padding: 32px 0;
+}
+
+.copyRight__title,
+.copyRight__nav-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--fontColor);
+}
+
+.copyRight__nav-list {
+    gap: 32px;
+}
+
+.copyRight__nav-list li {
+    transition: 0.3s ease-in-out;
+}
+
+.copyRight__nav-list li:hover a {
+    color: var(--blueColor);
+}
+
+/* ===================================CopyRightCSS======================================*/

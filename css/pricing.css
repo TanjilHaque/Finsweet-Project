@@ -1,0 +1,330 @@
+/* ===================================Google Fonts CSS====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ===================================Google Fonts CSS====================================== */
+
+/* ===================================Common CSS====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+nav,
+footer,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: center;
+}
+
+/* ===================================Common CSS====================================== */
+
+/* ===================================root CSS====================================== */
+:root {
+    --primaryColor: #1C1E53;
+    --secondaryColor: #F4F6FC;
+    --whiteColor: #FFFFFF;
+    --fontColor: #282938;
+    --blueColor: #2405F2;
+    --yellowColor: #FCD980;
+    --poppins: "Poppins", sans-serif;
+}
+
+/* ===================================root CSS====================================== */
+
+body {
+    font-family: var(--poppins);
+}
+
+/* ===================================Navbar CSS====================================== */
+.ourCustomClass {
+    background-color: var(--primaryColor);
+    padding: 16px 0;
+}
+
+.customMenuClass {
+    margin-right: 32px;
+    color: #BBBBCB;
+    transition: all linear 0.3s;
+}
+
+.customMenuClass:hover {
+    color: var(--whiteColor);
+}
+
+.customNavbarBtn {
+    margin-left: 16px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background-color: transparent;
+    border: 2px solid #F4F6FC33;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--whiteColor);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.customNavbarBtn:hover {
+    background-color: var(--yellowColor);
+}
+
+/* ===================================Navbar CSS====================================== */
+
+/* ===================================Pricing CSS====================================== */
+#pricing{
+    padding: 128px 0;
+    background-color: var(--whiteColor);
+}
+.customPricingGap{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.pricing__title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--fontColor);
+}
+.pricing__description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+.pricing__card-container{
+    padding: 64px 48px 62px 48px;
+    background-color: var(--secondaryColor);
+    border-radius: 12px;
+}
+.pricing__card-price{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: var(--fontColor);  
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.price__per{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--blueColor);
+}
+.pricing__card-heading{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--fontColor);
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.pricing__card-summary{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+.pricing__card-items{
+    padding: 78px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pricing__card-items li{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+}
+.price__btn-container{
+    display: block;
+    text-align: center;
+}
+.pricing__card-btn{
+    border: none;
+    background-color: var(--fontColor);
+    border-radius: 41px;
+    padding: 16px 77.5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--secondaryColor);
+    transition: 0.4s ease-in-out;
+}
+.pricing__card-btn:hover{
+    background-color: var(--yellowColor);
+    color: var(--fontColor);
+}
+.items--inactive{
+    opacity: 0.7;
+}
+.card--middle{
+    background-color: var(--primaryColor);
+    position: relative;
+    z-index: 1;
+}
+.card--middle::before {
+    content: '';
+    position: absolute;
+    border-radius: 12px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2a2b5d;
+    clip-path: ellipse(115% 55% at 50% 25%);
+    z-index: -1;
+}
+.card--middle h4{
+    color: var(--whiteColor);
+}
+.card--middle p{
+    color: var(--whiteColor);
+}
+.card--middle ul li{
+    color: var(--whiteColor);
+}
+.card--middle .pricing__card-price .price__per{
+    color: var(--yellowColor);
+}
+.card--middle .price__btn-container .pricing__card-btn{
+    background-color: var(--yellowColor);
+    color: var(--fontColor);
+}
+/* ===================================Pricing CSS====================================== */
+
+/* =================================Footer CSS====================================== */
+#footerPart {
+    padding-top: 96px;
+    background-color: var(--primaryColor);
+}
+
+.footerPart__summary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+.footerPart__contactInfo {
+    background-color: var(--yellowColor);
+    max-width: 517px;
+    padding: 17px 137px 16px 37px;
+}
+
+.footerPart__contactInfo-mail-heading,
+.footerPart__contactInfo-phone-heading {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--fontColor);
+    line-height: 32px;
+}
+
+.footerPart__contactInfo-mail-address,
+.footerPart__contactInfo-phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fontColor);
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.footerPartRight__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--whiteColor);
+}
+
+.footerPartRight__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 14px;
+    padding-bottom: 28px;
+
+}
+
+.footerPartRight__icons {
+    display: flex;
+    color: var(--whiteColor);
+    font-size: 16px;
+    gap: 27px;
+}
+
+.footer--icon {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.footer--icon:hover {
+    color: var(--yellowColor);
+}
+
+/* ===================================FooterCSS======================================*/
+
+/* ===================================CopyRightCSS======================================*/
+#copyRight {
+    padding: 32px 0;
+}
+
+.copyRight__title,
+.copyRight__nav-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--fontColor);
+}
+
+.copyRight__nav-list {
+    gap: 32px;
+}
+
+.copyRight__nav-list li {
+    transition: 0.3s ease-in-out;
+}
+
+.copyRight__nav-list li:hover a {
+    color: var(--blueColor);
+}
+
+/* ===================================CopyRightCSS======================================*/

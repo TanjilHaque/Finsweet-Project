@@ -1,0 +1,714 @@
+/* ===================================Google Fonts CSS====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ===================================Google Fonts CSS====================================== */
+
+/* ===================================Common CSS====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+nav,
+footer,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: center;
+}
+
+/* ===================================Common CSS====================================== */
+
+/* ===================================root CSS====================================== */
+:root {
+    --primaryColor: #1C1E53;
+    --secondaryColor: #F4F6FC;
+    --whiteColor: #FFFFFF;
+    --fontColor: #282938;
+    --blueColor: #2405F2;
+    --yellowColor: #FCD980;
+    --poppins: "Poppins", sans-serif;
+}
+
+/* ===================================root CSS====================================== */
+
+body {
+    font-family: var(--poppins);
+}
+
+/* ===================================Navbar CSS====================================== */
+.ourCustomClass {
+    background-color: var(--primaryColor);
+    padding: 16px 0;
+}
+
+.customMenuClass {
+    margin-right: 32px;
+    color: #BBBBCB;
+    transition: all linear 0.3s;
+}
+
+.customMenuClass:hover {
+    color: var(--whiteColor);
+}
+
+.customNavbarBtn {
+    margin-left: 16px;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background-color: transparent;
+    border: 2px solid #F4F6FC33;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--whiteColor);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.customNavbarBtn:hover {
+    background-color: var(--yellowColor);
+}
+
+/* ===================================Navbar CSS====================================== */
+
+/* ===================================banner CSS====================================== */
+#banner {
+    background-color: var(--primaryColor);
+    padding: 128px 0;
+}
+
+.banner__heading-title {
+    color: var(--whiteColor);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+.banner__heading-description {
+    margin-top: 24px;
+    color: var(--whiteColor);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.banner__btn-left {
+    margin-left: 0;
+}
+
+.banner__btn-right {
+    background-color: transparent;
+    border: none;
+    margin-left: 0;
+    vertical-align: middle;
+    padding: 16px 0;
+}
+
+.banner__btn-right:hover {
+    background-color: transparent;
+    color: #FCD980;
+}
+
+/* ===================================banner CSS====================================== */
+
+/* ===================================work CSS====================================== */
+#work {
+    background-color: var(--secondaryColor);
+    padding: 128px 0;
+}
+
+.work__wrapper-heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--fontColor);
+}
+
+.work__wrapper-summary {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+
+.work__wrapper-link {
+    color: var(--blueColor);
+}
+
+.work__card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.work__card img {
+    width: 50px;
+    height: 50px;
+}
+
+.work__card-description {
+    margin-bottom: 48px;
+}
+
+/* ===================================work CSS====================================== */
+
+/* ===================================projects CSS====================================== */
+#projects {
+    background-color: var(--whiteColor);
+    padding: 128px 0;
+}
+
+.projects__heading {
+    margin-bottom: 64px;
+}
+
+.projects__heading-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--fontColor);
+}
+
+.projects__heading-link {
+    color: var(--fontColor);
+    transition: 0.3s ease-in-out;
+}
+
+.projects__heading-link:hover {
+    color: var(--blueColor);
+}
+
+.projects__image-container {
+    position: relative;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: linear-gradient(160deg, rgba(28, 30, 83, 0.42), rgb(28, 30, 83));
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.projects__image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay__left {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.projects__image-container:hover .overlay__left {
+    width: 47%;
+}
+
+.overlay__right {
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+}
+
+.projects__image-container:hover .overlay__right {
+    width: 100%;
+}
+
+.mainImage--overlay {
+    padding-left: 48px;
+    padding-bottom: 76px;
+}
+
+.overlay__content-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--whiteColor);
+    margin-bottom: 16px;
+}
+
+.overlay__content-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.overlay-btn {
+    color: var(--yellowColor);
+}
+
+.side__overlay-top {
+    padding-left: 56px;
+    padding-bottom: 45px;
+
+}
+
+/* ===================================projects CSS====================================== */
+
+/* ===================================solveProblem CSS====================================== */
+#solveProblem {
+    background-color: var(--secondaryColor);
+    padding: 128px 0;
+}
+
+.solveProblem__customRowGap {
+    gap: 44px;
+}
+
+.feature__text-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--fontColor);
+}
+
+.solveProblem__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--fontColor);
+}
+
+.solveProblem__card {
+    background-color: var(--whiteColor);
+    padding: 48px 44px 48px 48px;
+    width: 405px;
+}
+
+.solveProblem__card-icon {
+    color: var(--blueColor);
+    font-size: 34px;
+}
+
+.solveProblem__card-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--fontColor);
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+
+.solveProblem__card-summary {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+
+/* ===================================solveProblem CSS====================================== */
+
+/* ===================================Testimonials CSS====================================== */
+#testimonials {
+    padding: 128px 0;
+    background-color: rgba(244, 246, 252, 0.5);
+}
+
+.testimonials__heading-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: var(--fontColor);
+}
+
+.testimonials__heading-summary {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+
+.testimonials__quote {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--fontColor);
+}
+
+.testimonials__profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.testimonials__profile-picture {
+    border-radius: 50%;
+}
+
+.testimonials__profile-name {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--fontColor);
+}
+
+.testimonials__profile-designation {
+    font-weight: 500;
+    font-size: 12;
+    color: var(--fontColor);
+}
+
+/* ===================================Testimonials CSS====================================== */
+
+/* ===================================FAQ CSS====================================== */
+#faq {
+    padding: 128px 0;
+    background-color: var(--whiteColor);
+}
+
+.faq__heading-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: var(--fontColor);
+}
+
+.faq__link {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--blueColor);
+}
+
+.faq__number {
+    color: var(--blueColor);
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 16px;
+}
+
+.faq__question {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--fontColor);
+}
+
+.faq__answer {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--fontColor);
+    opacity: 0.87;
+    padding-left: 41px;
+    padding-right: 25%;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url("https://cdn-icons-png.flaticon.com/512/262/262038.png");
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/262/262038.png");
+    transform: rotate(45deg);
+}
+
+/* ===================================FAQ CSS====================================== */
+
+/* ===================================Form CSS====================================== */
+#formPart {
+    padding: 128px 0;
+    background-color: var(--whiteColor);
+}
+
+.formPart__image {
+    position: relative;
+    background-image: url("/images/Form__image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 656px;
+    height: 691px;
+    z-index: 1;
+}
+
+.formPart__image-content {
+    padding: 96px 96px 261px 96px;
+    z-index: 3;
+}
+
+.content__heading {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: var(--whiteColor);
+}
+
+.content__summary {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--whiteColor);
+}
+
+.formPart__image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1C1E5380;
+    z-index: -1;
+}
+
+.formPart__fillup {
+    background-color: var(--primaryColor);
+    height: 100%;
+}
+
+.formPart__fillup {
+    padding: 96px 96px 48px 96px;
+}
+
+.formPart__fillup-heading {
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--whiteColor);
+}
+
+.formPart__fillup-summary {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--whiteColor);
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.text__box {
+    padding: 18px 0 18px 32px;
+    border: 1.5px solid #FFFFFF0D;
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--secondaryColor);
+}
+
+.text__box::placeholder {
+    color: rgba(244, 246, 252, 0.5);
+}
+
+.formPart__fillup-form {
+    gap: 16px;
+}
+
+.formPart-btn {
+    margin-top: 40px;
+    margin-bottom: 28px;
+    padding: 16px 150px;
+    background-color: #BBBBCB;
+    border: none;
+    border-radius: 41px;
+    color: #1B1C2B;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.formPart-btn:hover {
+    background-color: var(--yellowColor);
+}
+
+.formPart--anchor {
+    display: block;
+    color: var(--whiteColor);
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+.formPart--anchor:hover {
+    color: var(--yellowColor);
+}
+
+/* ===================================Form CSS====================================== */
+
+/* ===================================Blog CSS====================================== */
+#blog {
+    padding: 128px;
+}
+
+.blog__heading {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--fontColor);
+}
+
+.blog__date {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+
+.blog__card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--fontColor);
+}
+
+.blog__card-description {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fontColor);
+    opacity: 0.7;
+}
+
+.blog__card-link {
+    color: var(--fontColor);
+    transition: 0.3s ease;
+}
+
+.blog__card-link:hover {
+    color: var(--blueColor);
+}
+
+/* ===================================Blog CSS====================================== */
+
+/* =================================Footer CSS====================================== */
+#footerPart {
+    padding-top: 96px;
+    background-color: var(--primaryColor);
+}
+
+.footerPart__summary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+.footerPart__contactInfo {
+    background-color: var(--yellowColor);
+    max-width: 517px;
+    padding: 17px 137px 16px 37px;
+}
+
+.footerPart__contactInfo-mail-heading,
+.footerPart__contactInfo-phone-heading {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--fontColor);
+    line-height: 32px;
+}
+
+.footerPart__contactInfo-mail-address,
+.footerPart__contactInfo-phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--fontColor);
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.footerPartRight__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--whiteColor);
+}
+
+.footerPartRight__description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--whiteColor);
+    opacity: 0.8;
+    max-width: 400px;
+    padding-top: 14px;
+    padding-bottom: 28px;
+
+}
+
+.footerPartRight__icons {
+    display: flex;
+    color: var(--whiteColor);
+    font-size: 16px;
+    gap: 27px;
+}
+
+.footer--icon {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.footer--icon:hover {
+    color: var(--yellowColor);
+}
+
+/* ===================================FooterCSS======================================*/
+
+/* ===================================CopyRightCSS======================================*/
+#copyRight {
+    padding: 32px 0;
+}
+
+.copyRight__title,
+.copyRight__nav-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--fontColor);
+}
+
+.copyRight__nav-list {
+    gap: 32px;
+}
+
+.copyRight__nav-list li {
+    transition: 0.3s ease-in-out;
+}
+
+.copyRight__nav-list li:hover a {
+    color: var(--blueColor);
+}
+
+/* ===================================CopyRightCSS======================================*/
