@@ -101,14 +101,14 @@ body {
     padding: 128px 0;
 }
 
-.banner__heading-title {
+.bannerHeading__title {
     color: var(--whiteColor);
     font-size: 54px;
     font-weight: 600;
     line-height: 74px;
 }
 
-.banner__heading-description {
+.bannerHeading__description {
     margin-top: 24px;
     color: var(--whiteColor);
     font-size: 16px;
@@ -141,18 +141,18 @@ body {
     line-height: 64px;
     color: var(--fontColor);
 }
-.solveProblem__card {
+.solveProblemCard {
     background-color: var(--secondaryColor);
     padding: 48px 44px 48px 48px;
-    width: 405px;
+    width: 100%;
 }
 
-.solveProblem__card-icon {
+.solveProblemCard__icon {
     color: var(--blueColor);
     font-size: 34px;
 }
 
-.solveProblem__card-title {
+.solveProblemCard__title {
     font-weight: 500;
     font-size: 24px;
     color: var(--fontColor);
@@ -160,7 +160,7 @@ body {
     margin-bottom: 12px;
 }
 
-.solveProblem__card-summary {
+.solveProblemCard__summary {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -224,7 +224,7 @@ body {
     background-color: var(--whiteColor);
 }
 
-.faq__heading-title {
+.faq__title {
     font-weight: 600;
     font-size: 38px;
     line-height: 56px;
@@ -285,7 +285,7 @@ body {
     background-color: var(--primaryColor);
 }
 
-.footerPart__summary {
+.footerPartWrapper__summary {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -296,22 +296,22 @@ body {
     padding-bottom: 86px;
 }
 
-.footerPart__contactInfo {
+.footerPartWrapperContactInfo {
     background-color: var(--yellowColor);
     max-width: 517px;
     padding: 17px 137px 16px 37px;
 }
 
-.footerPart__contactInfo-mail-heading,
-.footerPart__contactInfo-phone-heading {
+.footerPartWrapperContactInfoMail__heading,
+.footerPartWrapperContactInfoPhone__heading {
     font-weight: 500;
     font-size: 18px;
     color: var(--fontColor);
     line-height: 32px;
 }
 
-.footerPart__contactInfo-mail-address,
-.footerPart__contactInfo-phone-number {
+.footerPartWrapperContactInfoMail__address,
+.footerPartWrapperContactInfoPhone__number {
     font-weight: 400;
     font-size: 16px;
     color: var(--fontColor);

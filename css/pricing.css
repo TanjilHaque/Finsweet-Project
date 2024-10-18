@@ -117,12 +117,12 @@ body {
     color: var(--fontColor);
     opacity: 0.7;
 }
-.pricing__card-container{
+.pricingCard__container{
     padding: 64px 48px 62px 48px;
     background-color: var(--secondaryColor);
     border-radius: 12px;
 }
-.pricing__card-price{
+.pricingCard__price{
     font-weight: 600;
     font-size: 38px;
     line-height: 56px;
@@ -138,7 +138,10 @@ body {
     line-height: 28px;
     color: var(--blueColor);
 }
-.pricing__card-heading{
+.price__per--middle{
+    color: var(--yellowColor);
+}
+.pricingCard__heading{
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
@@ -146,20 +149,20 @@ body {
     padding-top: 20px;
     padding-bottom: 8px;
 }
-.pricing__card-summary{
+.pricingCard__summary{
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
     color: var(--fontColor);
     opacity: 0.7;
 }
-.pricing__card-items{
+.pricingCard__items{
     padding: 78px 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.pricing__card-items li{
+.pricingCard__items li{
     display: flex;
     gap: 12px;
     align-items: center;
@@ -168,11 +171,11 @@ body {
     line-height: 28px;
     color: var(--fontColor);
 }
-.price__btn-container{
+.pricingCardBtn{
     display: block;
     text-align: center;
 }
-.pricing__card-btn{
+.pricingCard__btn{
     border: none;
     background-color: var(--fontColor);
     border-radius: 41px;
@@ -183,7 +186,7 @@ body {
     color: var(--secondaryColor);
     transition: 0.4s ease-in-out;
 }
-.pricing__card-btn:hover{
+.pricingCard__btn:hover{
     background-color: var(--yellowColor);
     color: var(--fontColor);
 }
@@ -231,7 +234,7 @@ body {
     background-color: var(--primaryColor);
 }
 
-.footerPart__summary {
+.footerPartWrapper__summary {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -242,22 +245,22 @@ body {
     padding-bottom: 86px;
 }
 
-.footerPart__contactInfo {
+.footerPartWrapperContactInfo {
     background-color: var(--yellowColor);
     max-width: 517px;
     padding: 17px 137px 16px 37px;
 }
 
-.footerPart__contactInfo-mail-heading,
-.footerPart__contactInfo-phone-heading {
+.footerPartWrapperContactInfoMail__heading,
+.footerPartWrapperContactInfoPhone__heading {
     font-weight: 500;
     font-size: 18px;
     color: var(--fontColor);
     line-height: 32px;
 }
 
-.footerPart__contactInfo-mail-address,
-.footerPart__contactInfo-phone-number {
+.footerPartWrapperContactInfoMail__address,
+.footerPartWrapperContactInfoPhone__number {
     font-weight: 400;
     font-size: 16px;
     color: var(--fontColor);

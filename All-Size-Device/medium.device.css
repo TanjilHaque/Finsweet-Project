@@ -1,0 +1,297 @@
+/* ============================mediumDevice CSS================================== */
+@media (max-width: 991.98px) { 
+    /* ============================Index Responsive================================== */
+    :root {
+        --primaryColor: #1C1E53;
+        --secondaryColor: #F4F6FC;
+        --whiteColor: #FFFFFF;
+        --fontColor: #282938;
+        --blueColor: #2405F2;
+        --yellowColor: #FCD980;
+        --poppins: "Poppins", sans-serif;
+    }
+    .customToggleBtn{
+        background-color: var(--whiteColor);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .customMenuClass {
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        margin: 12px 0;
+        text-align: center;
+    }
+    .customNavbarlistClass{
+        margin-top: 20px;
+    }
+    .customNavbarBtn {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    .banner__btn-left, .banner__btn-right{
+        width: auto;
+        display: inline-block;
+    }
+    .work__wrapper-heading {
+        text-align: center;
+    }
+    .work__wrapper-summary {
+        text-align: center;
+    }
+    .work__wrapper-link {
+        display: inline-block;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .work__card {
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primaryColor);
+        color: var(--whiteColor);
+        border-radius: 40px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .customProjectSliderClass{
+        flex-direction: row !important;
+    }
+    .customProjectSliderClass-child{
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .overlay__content-heading {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .projects__heading-link {
+        font-size: 12px;
+    }
+    .overlay__content-heading {
+        display: block;
+    }
+    .overlay__content-description{
+        display: none;
+    }
+    .projects__image-container:hover .overlay__left {
+        width: 100%;
+    }
+    .overlay__left{
+        padding-top: 70px;
+        padding-right: 20px;
+    }
+    .solveProblem__title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .testimonials__heading-title, .testimonials__heading-summary, .testimonials__quote{
+        text-align: center;
+    }
+    .testimonials__profile {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .testimonials__profile-info{
+        text-align: center;
+    }
+    .formPart-btn{
+        display: block;
+        margin: 20px auto;
+    }
+    .work__wrapper-link{
+        display: block;
+        margin: 0 auto;
+    }
+    .footerPartWrapper__summary, .footerPartWrapperContactInfo {
+        padding-bottom: 33px;
+        max-width: none;
+    }
+    .footerPartWrapper{
+        text-align: center;
+    }
+    .footerPartRight__heading {
+        font-size: 34px;
+        line-height: 60px;
+    }
+    .footerPartRight__description{
+        max-width: none;
+    }
+    .footerPartRight__icons{
+        justify-content: center;
+        align-items: center;
+    }
+    /* ============================Index Responsive================================== */
+
+    /* ============================AboutUs Responsive================================== */
+    .goalContentLeft__heading, .goalContentRight__heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .goalContentLeft__description, .goalContentRight__description {
+        font-size: 11px;
+        line-height: 19px;
+        margin-right: 45px;
+    }
+    .process__heading {
+        font-size: 34px;
+        line-height: 54px;
+    }
+    .process__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .process__summary {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .mission__summary {
+        padding-bottom: 20px;
+    }
+    .mission__title {
+        padding-top: 20px;
+    }
+    .team__heading {
+        font-size: 38px;
+        line-height: 54px;
+    }
+    /* ============================AboutUs Responsive================================== */
+
+    /* ============================Features Responsive================================== */
+    .benefits__heading {
+        font-size: 36px;
+    }
+    /* ============================Features Responsive================================== */
+
+    /* ============================Blog Responsive================================== */
+
+
+    /* ============================Blog Responsive================================== */
+
+    /* ============================contactUs Responsive================================== */
+    /* no style needed */
+    /* ============================contactUs Responsive================================== */
+
+    /* ============================caseStudy Responsive================================== */
+    .caseHero__title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .caseHero__heading {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .caseHero__summary {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .info__site {
+        font-size: 18px;
+    }
+    .caseProject__heading {
+        font-size: 32px;
+        line-height: 52px;
+    }
+    .caseProject__summary {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .caseProject__points li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .caseKeywords__items {
+        height: 25px;
+        gap: 40px;
+    }
+    .caseKeywords__items li {
+        font-size: 14px;
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
+    /* ============================caseStudy Responsive================================== */
+
+    /* ============================Work Responsive================================== */
+    .workPortfolioWrapper__title {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .workPortfolioWrapper__heading {
+        font-size: 38px;
+        line-height: 60px;
+    }
+    .workPortfolioWrapper__summary {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .ourWorkMainNavigator__items li a {
+        font-size: 13px;
+    }
+    .ourWorkMainTemplate__heading {
+        font-size: 28px;
+        line-height: 48px;
+    }
+    .ourWorkMainTemplate__summary {
+        font-size: 12px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .ourWorkMainTemplate__link {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .buildSomething__heading {
+        font-size: 38px;
+        line-height: 56px;
+    }
+    .buildSomething__summary {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .buildSomething__btn {
+        padding: 10px 40px;
+        font-size: 13px;
+    }
+    /* ============================Work Responsive================================== */
+
+    /* ============================pricing Responsive================================== */
+    .pricingCard__summary {
+        font-size: 13px;
+        line-height: 22px;
+        max-width: 214px;
+        text-align: justify;
+    }
+    /* ============================pricing Responsive================================== */
+
+    /* ============================Privacy Responsive================================== */
+    /* css added to bootstrap classes */
+    /* ============================Privacy Responsive================================== */
+
+    /* ============================ReadBlog Responsive================================== */
+    .readBlogContentWrapper__summary, .readBlogContentWrapper__items {
+        text-align: justify;
+    }
+    .blogHeroWrapper__title {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .readBlogContentWrapper__heading {
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .readBlogContentWrapper__heading {
+        font-size: 32px;
+        line-height: 52px;
+        text-align: center;
+    }
+    /* ============================ReadBlog Responsive================================== */
+
+ }
+/* ============================mediumDevice CSS================================== */
+

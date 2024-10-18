@@ -1,0 +1,189 @@
+@media (max-width: 767.98px) { 
+    /* =================================Index Responsive================================ */
+    .solveProblem__card{
+        text-align: center;
+    }
+    /* =================================Index Responsive================================ */
+
+    /* =================================Blog Responsive================================ */
+    .blogHeroWrapper__summary {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .blogHeroWrapper__link {
+        font-size: 14px;
+    }
+    .blog__heading {
+        font-size: 34px;
+    }
+    /* =================================Blog Responsive================================ */
+
+
+    /* =================================Features Responsive================================ */
+    .bannerHeading__title {
+        font-size: 38px;
+        line-height: 56px;
+    }
+    .benefits__heading {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .mission__heading {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .mission__summary {
+        font-size: 11px;
+        line-height: 17px;
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
+
+    /* =================================Features Responsive================================ */
+
+    /* =================================contactUs Responsive================================ */
+    .contactUsHeading__title {
+        font-size: 38px;
+        line-height: 56px;
+    }
+    .contactUsHeading__description {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    /* =================================contactUs Responsive================================ */
+
+    /* =================================caseStudy Responsive================================ */
+    .caseKeywords__items {
+        gap: 14px;
+        height: 18px;
+    }
+
+    .caseKeywords__items li {
+        font-size: 11px;
+    }
+    .caseHero__summary, .caseProject__summary {
+        text-align: justify;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .caseHero__heading {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .caseHero__title {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .info__site {
+        font-size: 14px;
+    }
+    /* =================================caseStudy Responsive================================ */
+
+    /* =================================Work Responsive================================ */
+    .workPortfolioWrapper__heading {
+        font-size: 32px;
+        line-height: 54px;
+    }
+    .workPortfolioWrapper__summary {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
+    .ourWorkMainNavigator__items {
+        gap: 10px;
+    }
+    .ourWorkMainNavigator__items li a {
+        font-size: 8px;
+    }
+    .ourWorkMainNavigator {
+        padding-bottom: 0px;
+    }
+    .buildSomething__heading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .buildSomething__summary {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .buildSomething__btn {
+        padding: 6px 32px;
+        font-size: 11px;
+    }
+    /* =================================Work Responsive================================ */
+
+    /* =================================pricing Responsive================================ */
+    .pricing__title {
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .pricing__description {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    /* =================================pricing Responsive================================ */
+
+    /* =================================ReadBlog Responsive================================ */
+    .blogHeroWrapper__title {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    .blogHeroWrapper__status {
+        font-size: 14px;
+    }
+    .readBlogContentWrapper__heading {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    .readBlogContentWrapper__summary, .readBlogContentWrapper__items {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .readBlogContentWrapper__heading {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    /* =================================ReadBlog Responsive================================ */
+
+
+
+
+
+    /* =================================Privacy Responsive================================ */
+
+
+    .privacyHeadingWrapper__title {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 50px;
+        color: var(--fontColor);
+    }
+    .privacyHeadingWrapper__summary {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .privacyBodyWrapper__title {
+        font-size: 34px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .privacyHeadingWrapper__summary {
+        font-size: 12px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .privacyBodyWrapper__items{
+        font-size: 12px;
+    }
+    /* =================================Privacy Responsive================================ */
+
+ }

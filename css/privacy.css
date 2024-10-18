@@ -59,6 +59,7 @@ body {
     font-family: var(--poppins);
 }
 
+
 /* ===================================Navbar CSS====================================== */
 .ourCustomClass {
     background-color: var(--primaryColor);
@@ -93,7 +94,6 @@ body {
 }
 
 /* ===================================Navbar CSS====================================== */
-
 
 /* ===================================Privacy CSS====================================== */
 #privacyHeading{
@@ -152,18 +152,13 @@ body {
 /* ===================================Privacy CSS====================================== */
 
 
-
-
-
-
-
 /* =================================Footer CSS====================================== */
 #footerPart {
     padding-top: 96px;
     background-color: var(--primaryColor);
 }
 
-.footerPart__summary {
+.footerPartWrapper__summary {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -174,22 +169,22 @@ body {
     padding-bottom: 86px;
 }
 
-.footerPart__contactInfo {
+.footerPartWrapperContactInfo {
     background-color: var(--yellowColor);
     max-width: 517px;
     padding: 17px 137px 16px 37px;
 }
 
-.footerPart__contactInfo-mail-heading,
-.footerPart__contactInfo-phone-heading {
+.footerPartWrapperContactInfoMail__heading,
+.footerPartWrapperContactInfoPhone__heading {
     font-weight: 500;
     font-size: 18px;
     color: var(--fontColor);
     line-height: 32px;
 }
 
-.footerPart__contactInfo-mail-address,
-.footerPart__contactInfo-phone-number {
+.footerPartWrapperContactInfoMail__address,
+.footerPartWrapperContactInfoPhone__number {
     font-weight: 400;
     font-size: 16px;
     color: var(--fontColor);

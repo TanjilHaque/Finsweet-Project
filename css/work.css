@@ -96,17 +96,17 @@ body {
 
 /* ===================================workPortfolio CSS====================================== */
 #workPortfolio{
-    padding: 96px 580px;
+    padding: 96px 0px;
     background-color: var(--secondaryColor);
 }
-.workPortfolio__wrapper-title{
+.workPortfolioWrapper__title{
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
     color: var(--fontColor);
     opacity: 0.7;
 }
-.workPortfolio__wrapper-heading{
+.workPortfolioWrapper__heading{
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
@@ -114,7 +114,7 @@ body {
     padding-top: 4px;
     padding-bottom: 24px;
 }
-.workPortfolio__wrapper-summary{
+.workPortfolioWrapper__summary{
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
@@ -122,18 +122,18 @@ body {
     opacity: 0.7;
     padding-bottom: 32px;
 }
-.workPortfolio__wrapper-icons{
+.workPortfolioWrapper__icons{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
     gap: 27.84px;
 }
-.workPortfolio__wrapper-icons i{
+.workPortfolioWrapper__icons i{
     transition: 0.5s ease-in-out;
     cursor: pointer;
 }
-.workPortfolio__wrapper-icons i:hover{
+.workPortfolioWrapper__icons i:hover{
     color: var(--yellowColor);
 }
 
@@ -141,19 +141,19 @@ body {
 
 /* ===================================ourWorkMain CSS====================================== */
 #ourWorkMain{
-    padding: 96px 160px 0 160px;
+    padding: 96px 50px 0 50px;
     background-color: var(--whiteColor);
 }
-.ourWorkMain__navigator{
+.ourWorkMainNavigator{
     padding-bottom: 48px;
 }
-.ourWorkMain__navigator-items{
+.ourWorkMainNavigator__items{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
-.ourWorkMain__navigator-items li a{
+.ourWorkMainNavigator__items li a{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -161,12 +161,12 @@ body {
     opacity: 0.7;
     transition: 0.5s linear;
 }
-.ourWorkMain__navigator-items li a:hover{
+.ourWorkMainNavigator__items li a:hover{
     color: var(--blueColor);
     opacity: 1;
 }
 
-.ourWorkMain__template-heading{
+.ourWorkMainTemplate__heading{
     padding-top: 24px;
     padding-bottom: 12px;
     font-weight: 600;
@@ -174,7 +174,7 @@ body {
     line-height: 56px;
     color: var(--fontColor);
 }
-.ourWorkMain__template-summary{
+.ourWorkMainTemplate__summary{
     max-width: 623px;
     font-weight: 400;
     font-size: 16px;
@@ -182,7 +182,7 @@ body {
     color: var(--fontColor);
     opacity: 0.7;
 }
-.ourWorkMain__template-link{
+.ourWorkMainTemplate__link{
     display: inline-block;
     padding-top: 24px;
     padding-bottom: 64px;
@@ -192,7 +192,7 @@ body {
     line-height: 24px;
     transition: all linear 0.5s;
 }
-.ourWorkMain__template-link:hover{
+.ourWorkMainTemplate__link:hover{
     color: var(--blueColor);
 }
 /* ===================================ourWorkMain CSS====================================== */
@@ -242,7 +242,7 @@ body {
     background-color: var(--primaryColor);
 }
 
-.footerPart__summary {
+.footerPartWrapper__summary {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -253,22 +253,22 @@ body {
     padding-bottom: 86px;
 }
 
-.footerPart__contactInfo {
+.footerPartWrapperContactInfo {
     background-color: var(--yellowColor);
     max-width: 517px;
     padding: 17px 137px 16px 37px;
 }
 
-.footerPart__contactInfo-mail-heading,
-.footerPart__contactInfo-phone-heading {
+.footerPartWrapperContactInfoMail__heading,
+.footerPartWrapperContactInfoPhone__heading {
     font-weight: 500;
     font-size: 18px;
     color: var(--fontColor);
     line-height: 32px;
 }
 
-.footerPart__contactInfo-mail-address,
-.footerPart__contactInfo-phone-number {
+.footerPartWrapperContactInfoMail__address,
+.footerPartWrapperContactInfoPhone__number {
     font-weight: 400;
     font-size: 16px;
     color: var(--fontColor);

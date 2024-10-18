@@ -27,7 +27,8 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
     <!-- ==============================font awosome=============================== -->
 
-    <link rel="stylesheet" href="/css/readBlog.css">
+    <link rel="stylesheet" href="./css/readBlog.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -36,12 +37,13 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <picture>
-                    <img src="/images/Navbar__Logo.png" alt="/images/Navbar__Logo.png">
+                    <img src="./images/Navbar__Logo.png" alt="/images/Navbar__Logo.png">
                 </picture>
             </a>
             <!-- ****************toggle button******************* -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler customToggleBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- ****************toggle button******************* -->
@@ -71,10 +73,10 @@
                             A UX Case Study on Creating a Studious Environment for Students
                         </h3>
                         <h5 class="blogHeroWrapper__status text-center">
-                            <span class="blogHeroWrapper__status-name">Andrew Jonson</span> Posted on 27th January 2021
+                            <span class="blogHeroWrapper__status--name">Andrew Jonson</span> Posted on 27th January 2021
                         </h5>
                         <picture>
-                            <img src="/Blog-Images/Blog-main.png" alt="/Blog-Images/Blog-main.png"
+                            <img src="./Blog-Images/Blog-main.png" alt="/Blog-Images/Blog-main.png"
                                 class="blogHeroWrapper__image img-fluid w-100">
                         </picture>
                     </div>
@@ -90,7 +92,7 @@
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center align-items-center">
                     <div class="readBlogContentWrapper">
-                        <h3 class="readBlogContentWrapper__heading">
+                        <h3 class="readBlogContentWrapper__heading text-center text-lg-start">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h3>
                         <p class="readBlogContentWrapper__summary customPad--1">
@@ -135,7 +137,7 @@
                             culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                         <picture>
-                            <img src="/Blog-Images/Blog-sub.jpg" alt="/Blog-Images/Blog-sub.jpg" class="img-fluid">
+                            <img src="./Blog-Images/Blog-sub.jpg" alt="/Blog-Images/Blog-sub.jpg" class="img-fluid">
                         </picture>
                         <h3 class="readBlogContentWrapper__heading customPad--4">
                             Ut enim ad minim veniam, quis nostrud.
@@ -163,42 +165,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="footerPart__wrapper">
-                        <img src="/images/Navbar__Logo.png" alt="images/Navbar__Logo.png" class="footerPart__logo"
-                            width="156px" height="38px">
-                        <p class="footerPart__summary">
+                    <div class="footerPartWrapper">
+                        <img src="./images/Navbar__Logo.png" alt="images/Navbar__Logo.png"
+                            class="footerPartWrapper__logo" width="156px" height="38px">
+                        <p class="footerPartWrapper__summary">
                             We are always open to discuss your project and improve your online presence.
                         </p>
-                        <div class="footerPart__contactInfo d-flex justify-content-between align-items-center">
-                            <div class="footerPart__contactInfo-mail">
-                                <h5 class="footerPart__contactInfo-mail-heading">
+                        <div class="footerPartWrapperContactInfo d-flex justify-content-between align-items-center">
+                            <div class="footerPartWrapperContactInfoMail">
+                                <h5 class="footerPartWrapperContactInfoMail__heading">
                                     Email me at
                                 </h5>
-                                <p class="footerPart__contactInfo-mail-address">
+                                <p class="footerPartWrapperContactInfoMail__address">
                                     contact@website.com
                                 </p>
                             </div>
-                            <div class="footerPart__contactInfo-phone">
-                                <h5 class="footerPart__contactInfo-phone-heading">
+                            <div class="footerPartWrapperContactInfoPhone">
+                                <h5 class="footerPartWrapperContactInfoPhone__heading">
                                     Call us
                                 </h5>
-                                <p class="footerPart__contactInfo-phone-number">
+                                <p class="footerPartWrapperContactInfoPhone__number">
                                     0927 6277 28525
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 offset-1">
+                <div class="col-lg-6 offset-lg-1 offset-0">
                     <div class="footerPartRight__wrapper">
-                        <h4 class="footerPartRight__heading">
+                        <h4 class="footerPartRight__heading text-lg-start text-center">
                             Lets Talk!
                         </h4>
-                        <p class="footerPartRight__description">
+                        <p class="footerPartRight__description text-lg-start text-center">
                             We are always open to discuss your project, improve your online presence and help with your
                             UX/UI design challenges.
                         </p>
-                        <div class="footerPartRight__icons">
+                        <div class="footerPartRight__icons my-3 my-lg-0">
                             <i class="fa-brands fa-facebook footer--icon"></i>
                             <i class="fa-brands fa-twitter footer--icon"></i>
                             <i class="fa-brands fa-instagram footer--icon"></i>
@@ -211,17 +213,18 @@
     </footer>
     <!-- ==============================Footer Markup=============================== -->
 
+    
     <!-- ==============================CopyRight Markup=============================== -->
     <section id="copyRight">
         <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-lg-3">
-                    <h5 class="copyRight__title">
+            <div class="row d-lg-flex justify-content-lg-between align-items-lg-center">
+                <div class="col-lg-3 col-12">
+                    <h5 class="copyRight__title text-lg-start text-center">
                         Copyright 2022, Finsweet.com
                     </h5>
                 </div>
-                <div class="col-lg-5">
-                    <ul class="copyRight__nav-list d-flex justify-content-between align-items-center">
+                <div class="col-lg-5 col-12">
+                    <ul class="copyRight__nav-list d-flex justify-content-between align-items-center mt-3 mt-lg-0">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Features</a></li>

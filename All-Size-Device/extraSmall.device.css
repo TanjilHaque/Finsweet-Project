@@ -1,0 +1,237 @@
+/* ==================================extraSmall Device Responsive CSS=============================== */
+@media (max-width: 575.98px) { 
+    /* ===============================index responsive==================================== */
+    .customExtraSmallBannerBtn{
+        text-align: center !important;
+    }
+
+    .work__card-description {
+        margin-bottom: 24px;
+    }
+    .projects__heading-title {
+        font-size: 25px !important;
+    }
+    .justify-content-between {
+        justify-content: space-between!important;
+    }
+    .solveProblem__title {
+        font-size: 22px !important;
+        line-height: 32px !important;
+    }
+    .solveProblem__card {
+        margin: 0 auto;
+    }
+    .testimonials__quote {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+    .testimonials__heading-summary {
+        font-size: 10px !important;
+        line-height: 16px !important;
+        padding: 16px 0;
+    }
+    .blogCard__title {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+    .blogCard__description {
+        font-size: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .blogCard__date {
+        margin-top: 15px !important;
+        margin-bottom: 7px !important;
+    }
+    .footerPartRight__heading {
+        font-size: 32px;
+        text-align: center !important;
+    }
+    .footerPartRight__description {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center !important;
+    }
+    .footerPartWrapperContactInfo {
+        padding: 17px 45px 16px 37px;
+    }
+    .faq__question {
+        font-size: 14px !important;
+    }
+    .faq__answer {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+    /* ===============================index responsive==================================== */
+
+    /* ===============================aboutUs responsive==================================== */
+    .aboutUsBanner__heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .aboutUsBanner__title {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .aboutUsBanner__summary {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .goalContentLeft__title {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .goalContentLeft__heading, .goalContentRight__heading {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .goalContentLeft__description, .goalContentRight__description {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .process__heading {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .process__title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .benefits__heading {
+        line-height: 38px;
+    }
+    .team__heading {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    /* ===============================aboutUs responsive==================================== */
+
+    /* ===============================features responsive==================================== */
+    .bannerHeading__title {
+        font-size: 28px;
+        line-height: 48px;
+    }
+    .bannerHeading__description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .benefits__heading {
+        font-size: 22px;
+    }
+    .solveProblemCard__title {
+        font-size: 14px;
+    }
+    .solveProblemCard__summary {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .mission__title {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .mission__heading {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .mission__summary {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .faq__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .faq__number {
+        font-size: 18px;
+    }
+    /* ===============================features responsive==================================== */
+
+    /* ===============================blog responsive==================================== */
+    /* no style needed */
+    /* ===============================blog responsive==================================== */
+
+    /* ===============================contactUs responsive==================================== */
+    .customContactButton {
+        font-size: 16px;
+    }
+    /* ===============================contactUs responsive==================================== */
+
+    /* ===============================caseStudy responsive==================================== */
+    .caseKeywords__items {
+        gap: 8px;
+        height: 8px;
+    }
+    .caseKeywords__items li {
+        font-size: 9px;
+    }
+    /* ===============================caseStudy responsive==================================== */
+
+    /* ===============================work responsive==================================== */
+    .buildSomething__heading {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .buildSomething__summary {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    /* ===============================work responsive==================================== */
+
+    /* ===============================pricing responsive==================================== */
+    .pricing__description {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .pricingCard__heading {
+        font-size: 20px;
+    }
+    .pricingCard__summary {
+        font-size: 12px;
+        line-height: 20px;
+        max-width: 140px;
+    }
+    .pricingCard__items li {
+        font-size: 10px;
+    }
+    .pricingCard__btn {
+        padding: 8px 26px;
+        font-size: 12px;
+    }
+    .price__per {
+        font-size: 9px;
+    }
+    /* ===============================pricing responsive==================================== */
+
+    /* ===============================ReadBlog responsive==================================== */
+    .blogHeroWrapper__title {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .readBlogContentWrapper__heading {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    /* ===============================ReadBlog responsive==================================== */
+
+
+
+
+
+
+
+
+
+
+
+    /* ===============================Privacy responsive==================================== */
+    .privacyHeadingWrapper__title {
+        font-size: 28px;
+    }
+    .privacyBodyWrapper__title {
+        font-size: 28px;
+    }
+
+    /* ===============================Privacy responsive==================================== */
+
+ }
+ /* ==================================extraSmall Device Responsive CSS=============================== */

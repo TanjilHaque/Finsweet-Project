@@ -1,0 +1,320 @@
+/* ============================largeDevice CSS================================== */
+@media (max-width: 1199.98px) { 
+
+
+
+    /* ============================Index Responsive================================== */
+    .nav-link {
+        font-size: 13px;
+    }
+    .banner__heading-title {
+        font-size: 28px;
+        line-height: 54px;
+    }
+    .banner__heading-description {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .customNavbarBtn {
+        padding: 16px 20px;
+        font-size: 14px;
+    }
+    .work__wrapper-heading {
+        font-size: 42px;
+    }
+    .work__wrapper-summary {
+        font-size: 14px;
+    }
+    .work__card {
+        row-gap: 12px;
+    }
+    .work__card-description {
+        font-size: 14px;
+    }
+    .projects__heading-title {
+        font-size: 42px;
+    }
+    .solveProblem__title {
+        font-size: 42px;
+    }
+    .solveProblem__card {
+        padding: 26px 14px 10px 9px;
+        width: 295px;
+    }
+    .solveProblem__card-title {
+        font-size: 18px;
+    }
+    .solveProblem__card-summary {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .testimonials__heading-title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .testimonials__heading-summary {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 16px;
+    }
+    .testimonials__quote {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .testimonials__profile-name {
+        font-size: 14px;
+    }
+    .testimonials__profile-designation {
+        font-size: 14px;
+    }
+    .faq__heading-title {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .faq__link {
+        font-size: 14px;
+    }
+    .faq__question {
+        font-size: 18px;
+    }
+    .faq__answer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .content__heading {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .content__summary {
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 12px;
+    }
+    .formPart-btn {
+        padding: 14px 70px;
+        font-size: 16px;
+    }
+    .formPart__fillup-summary {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .text__box {
+        font-size: 12px;
+    }
+    .formPart--anchor {
+        font-size: 13px;
+    }
+    .blog__heading {
+        font-size: 38px;
+    }
+    .blog__date {
+        margin-top: 26px;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+    .footerPartWrapper__summary {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .footerPartWrapperContactInfoMail__heading, .footerPartWrapperContactInfoPhone__heading {
+        font-size: 14px;
+    }
+    .footerPartWrapperContactInfoMail__address, .footerPartWrapperContactInfoPhone__number {
+        font-size: 10px;
+    }
+    .copyRight__nav-list {
+        gap: 20px;
+    }
+    .copyRight__title, .copyRight__nav-list li a {
+        font-size: 12px;
+    }
+    /* ============================Index Responsive================================== */
+
+    /* ============================AboutUs Responsive================================== */
+    .aboutUsBanner__heading {
+        font-size: 42px;
+        line-height: 56px;
+    }
+    .aboutUsBanner__summary {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .goalContentLeft__heading, .goalContentRight__heading {
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .goalContentLeft__description, .goalContentRight__description {
+
+        font-size: 14px;
+        line-height: 25px;
+        text-align: justify;
+        margin-right: 30px;
+    }
+    .goalContent {
+        padding: 80px;
+    }
+    .team__heading {
+        font-size: 42px;
+        line-height: 58px;
+    }
+    .teamCard__name {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .teamCard__designation{
+        font-size: 12px;
+    }
+
+    /* ============================AboutUs Responsive================================== */
+
+    /* ============================Features Responsive================================== */
+    .bannerHeading__title {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .bannerHeading__description {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .customNavbarBtn {
+        font-size: 12px;
+    }
+    .benefits__heading {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .solveProblemCard__title {
+        font-size: 18px;
+    }
+    .solveProblemCard__summary {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .mission__heading {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .mission__summary {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .faq__title {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .faq__question {
+        font-size: 16px;
+    }
+    .faq__link {
+        font-size: 12px;
+    }
+    .faq__answer {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ============================Features Responsive================================== */
+
+    /* ============================Blog Responsive================================== */
+    .blogCard__title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .blogCard__description {
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    .blogCard__date {
+        font-size: 12px;
+    }
+    .blogCard__link {
+        font-size: 14px;
+    }
+    /* ============================Blog Responsive================================== */
+
+
+
+    /* ============================contactUs Responsive================================== */
+    /* no style needed */
+    /* ============================contactUs Responsive================================== */
+
+    /* ============================caseStudy Responsive================================== */
+    /* no style needed */
+    /* ============================caseStudy Responsive================================== */
+
+
+
+
+
+
+    /* ============================Work Responsive================================== */
+    /* No style needed */
+    /* ============================Work Responsive================================== */
+
+
+
+
+
+    /* ============================pricing Responsive================================== */
+    .pricing__title {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .pricing__description {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .pricingCard__price {
+        font-size: 28px;
+        line-height: 48px;
+    }
+    .price__per {
+        font-size: 12px;
+    }
+    .pricingCard__heading {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .pricingCard__summary {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .pricingCard__items {
+        padding: 48px 0;
+        gap: 16px;
+    }
+    .pricingCard__items li {
+        font-size: 13px;
+    }
+    .pricingCard__btn {
+        padding: 10px 55.5px;
+        font-size: 14px;
+
+    }
+
+
+
+    /* ============================pricing Responsive================================== */
+
+    /* ============================ReadBlog Responsive================================== */
+    /* No style needed */
+    /* ============================ReadBlog Responsive================================== */
+
+
+    /* ============================Privacy Responsive================================== */
+    /* No style needed */
+    /* ============================Privacy Responsive================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+/* ============================largeDevice CSS================================== */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +27,8 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
     <!-- ==============================font awosome=============================== -->
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -35,18 +37,19 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <picture>
-                    <img src="/images/Navbar__Logo.png" alt="/images/Navbar__Logo.png">
+                    <img src="./images/Navbar__Logo.png" alt="/images/Navbar__Logo.png" class="img-fluid">
                 </picture>
             </a>
             <!-- ****************toggle button******************* -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler customToggleBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- ****************toggle button******************* -->
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
+                <div class="navbar-nav ms-auto customNavbarlistClass">
                     <a class="nav-link customMenuClass" href="index.html">Home</a>
                     <a class="nav-link customMenuClass" href="about-us.html">About us</a>
                     <a class="nav-link customMenuClass" href="features.html">Features</a>
@@ -72,7 +75,7 @@
                         <p class="banner__heading-description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                         </p>
-                        <div class="row gx-0">
+                        <div class="row gx-0 text-sm-center customExtraSmallBannerBtn">
                             <div class="col-lg-6">
                                 <button class="customNavbarBtn banner__btn-left">View our work</button>
                             </div>
@@ -85,10 +88,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 gy-sm-5 gy-5">
                     <div>
                         <picture>
-                            <img src="/images/Banner__Image.png" alt="/images/Banner__Image.png">
+                            <img src="./images/Banner__Image.png" alt="/images/Banner__Image.png" class="img-fluid">
                         </picture>
                     </div>
                 </div>
@@ -109,7 +112,7 @@
                         <p class="work__wrapper-summary">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                         </p>
-                        <a href="work.html" class="work__wrapper-link">
+                        <a href="work.html" class="work__wrapper-link py-3">
                             Get in touch with us
                             <i class="fa-light fa-arrow-right"></i>
                         </a>
@@ -118,8 +121,8 @@
                 <div class="col-lg-6 offset-lg-1">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="work__card">
-                                <img src="/images/Work__card-one.png" alt="/images/Work__card-one.png">
+                            <div class="work__card p-3 text-center text-lg-start text-xl-start p-lg-0 px-xl-0">
+                                <img src="./images/Work__card-one.png" alt="/images/Work__card-one.png">
                                 <h3 class="work__card-heading">
                                     Strategy
                                 </h3>
@@ -130,8 +133,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="work__card">
-                                <img src="/images/Work__card-two.png" alt="/images/Work__card-two.png">
+                            <div class="work__card p-3 text-center text-lg-start text-xl-start p-lg-0 px-xl-0">
+                                <img src="./images/Work__card-two.png" alt="/images/Work__card-two.png">
                                 <h3 class="work__card-heading">
                                     Wireframing
                                 </h3>
@@ -142,8 +145,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="work__card">
-                                <img src="/images/Work__card-three.png" alt="/images/Work__card-three.png">
+                            <div class="work__card p-3 text-center text-lg-start text-xl-start p-lg-0 px-xl-0">
+                                <img src="./images/Work__card-three.png" alt="/images/Work__card-three.png">
                                 <h3 class="work__card-heading">
                                     Design
                                 </h3>
@@ -154,8 +157,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="work__card">
-                                <img src="/images/Work__card-four.png" alt="/images/Work__card-four.png">
+                            <div class="work__card p-3 text-center text-lg-start text-xl-start p-lg-0 px-xl-0">
+                                <img src="./images/Work__card-four.png" alt="/images/Work__card-four.png">
                                 <h3 class="work__card-heading">
                                     Development
                                 </h3>
@@ -187,10 +190,10 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8">
+            <div class="row gap-sm-5 gap-5 gap-lg-0 gap-xl-0">
+                <div class="col-lg-8 col-md-4">
                     <picture class="projects__image-container">
-                        <img class="w-100 img-fluid" src="/images/Projects__main.png" alt="/images/Projects__main.png">
+                        <img class="w-100 img-fluid" src="./images/Projects__main.png" alt="/images/Projects__main.png">
                         <div class="overlay mainImage--overlay d-flex flex-column justify-content-end overlay__left">
                             <h2 class="overlay__content-heading">
                                 Workhub office Webflow <br> Webflow Design
@@ -205,10 +208,11 @@
                         </div>
                     </picture>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-between">
-                    <div class="col-lg-12">
+                <div
+                    class="col-lg-4 col-md-8 d-lg-flex flex-lg-column justify-content-lg-between d-xl-flex flex-xl-column justify-content-xl-between d-flex px-sm-0 px-0 customProjectSliderClass">
+                    <div class="col-lg-12 col-md-6 customProjectSliderClass-child">
                         <picture class="projects__image-container">
-                            <img class="w-100 img-fluid" src="/images/Projects__side-top.png"
+                            <img class="w-100 img-fluid" src="./images/Projects__side-top.png"
                                 alt="/images/Projects__side-top.png">
                             <div
                                 class="overlay overlay__right d-flex flex-column justify-content-end gap-1 side__overlay-top">
@@ -223,9 +227,9 @@
                             </div>
                         </picture>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-md-6 customProjectSliderClass-child">
                         <picture class="projects__image-container">
-                            <img class="w-100 img-fluid" src="/images/Projects__side-bottom.png"
+                            <img class="w-100 img-fluid" src="./images/Projects__side-bottom.png"
                                 alt="/images/Projects__side-bottom.png">
                             <div
                                 class="overlay overlay__right d-flex flex-column justify-content-end gap-1 side__overlay-top">
@@ -270,8 +274,8 @@
 
                 <!-- ***********solveproblem card*********** -->
                 <div class="row row-gap-4">
-                    <div class="row">
-                        <div class="col-lg-4">
+                    <div class="row row-gap-md-4 row-gap-sm-4">
+                        <div class="col-lg-4 d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center">
                             <div class="solveProblem__card">
                                 <div class="solveProblem__card-icon">
                                     <i class="fa-solid fa-users"></i>
@@ -286,7 +290,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center">
                             <div class="solveProblem__card">
                                 <div class="solveProblem__card-icon">
                                     <i class="fa-solid fa-circle-check"></i>
@@ -301,7 +305,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center">
                             <div class="solveProblem__card">
                                 <div class="solveProblem__card-icon">
                                     <i class="fa-sharp fa-solid fa-pen-ruler fa-flip-horizontal"></i>
@@ -317,8 +321,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4">
+                    <div class="row row-gap-md-4 row-gap-sm-4">
+                        <div class="col-lg-4 d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center">
                             <div class="solveProblem__card">
                                 <div class="solveProblem__card-icon">
                                     <i class="fa-solid fa-comments-question"></i>
@@ -333,7 +337,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center">
                             <div class="solveProblem__card">
                                 <div class="solveProblem__card-icon">
                                     <i class="fa-solid fa-stopwatch"></i>
@@ -348,7 +352,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center">
                             <div class="solveProblem__card">
                                 <div class="solveProblem__card-icon">
                                     <i class="fa-solid fa-file-pen"></i>
@@ -365,7 +369,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- ***********solveproblem card*********** -->
+                <!-- *********** card*********** -->
             </div>
         </div>
     </section>
@@ -386,12 +390,12 @@
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex flex-column gap-5">
-                    <h4 class="testimonials__quote">
+                    <h4 class="testimonials__quote my-md-4">
                         "The best agency we've worked with so far. They understand our product and are able to add new
                         features with a great focus."
                     </h4>
                     <div class="testimonials__profile">
-                        <img class="testimonials__profile-picture" src="/images/Testimonials__Profile-pic.png"
+                        <img class="testimonials__profile-picture" src="./images/Testimonials__Profile-pic.png"
                             alt="/images/Testimonials__Profile-pic.png">
                         <div class="testimonials__profile-info">
                             <h5 class="testimonials__profile-name">
@@ -526,7 +530,7 @@
             <div class="row g-lg-0">
                 <div class="col-lg-6">
                     <div class="formPart__image">
-                        <div class="formPart__image-content w-100 img-fluid d-flex flex-column gap-4">
+                        <div class="formPart__image-content img-fluid d-flex flex-column gap-4">
                             <h4 class="content__heading">
                                 Building stellar websites for early startups
                             </h4>
@@ -579,66 +583,66 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="blog__card">
+                        <div class="blogCard">
                             <picture>
-                                <img src="/images/Blog__card-one.png" alt="/images/Blog__card-one.png"
+                                <img src="./images/Blog__card-one.png" alt="/images/Blog__card-one.png"
                                     class="img-fluid w-100">
                             </picture>
-                            <h6 class="blog__date">
+                            <h6 class="blogCard__date">
                                 19 Jan 2022
                             </h6>
-                            <h4 class="blog__card-title">
+                            <h4 class="blogCard__title">
                                 How one Webflow user grew his single person consultancy from $0-100K in 14 months
                             </h4>
-                            <p class="blog__card-description">
+                            <p class="blogCard__description">
                                 See how pivoting to Webflow changed one person's sales strategy and allowed him to
                                 attract
                             </p>
-                            <a href="#" class="blog__card-link">
+                            <a href="#" class="blogCard__link">
                                 Read More
                                 <i class="fa-light fa-arrow-right-long"></i>
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="blog__card">
+                        <div class="blogCard">
                             <picture>
-                                <img src="/images/Blog__card-two.png" alt="/images/Blog__card-two.png"
+                                <img src="./images/Blog__card-two.png" alt="/images/Blog__card-two.png"
                                     class="img-fluid w-100">
                             </picture>
-                            <h6 class="blog__date">
+                            <h6 class="blogCard__date">
                                 19 Jan 2022
                             </h6>
-                            <h4 class="blog__card-title">
+                            <h4 class="blogCard__title">
                                 How one Webflow user grew his single person consultancy from $0-100K in 14 months
                             </h4>
-                            <p class="blog__card-description">
+                            <p class="blogCard__description">
                                 See how pivoting to Webflow changed one person's sales strategy and allowed him to
                                 attract
                             </p>
-                            <a href="#" class="blog__card-link">
+                            <a href="#" class="blogCard__link">
                                 Read More
                                 <i class="fa-light fa-arrow-right-long"></i>
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="blog__card">
+                        <div class="blogCard">
                             <picture>
-                                <img src="/images/Blog__card-three.png" alt="/images/Blog__card-three.png"
+                                <img src="./images/Blog__card-three.png" alt="/images/Blog__card-three.png"
                                     class="img-fluid w-100">
                             </picture>
-                            <h6 class="blog__date">
+                            <h6 class="blogCard__date">
                                 19 Jan 2022
                             </h6>
-                            <h4 class="blog__card-title">
+                            <h4 class="blogCard__title">
                                 How one Webflow user grew his single person consultancy from $0-100K in 14 months
                             </h4>
-                            <p class="blog__card-description">
+                            <p class="blogCard__description">
                                 See how pivoting to Webflow changed one person's sales strategy and allowed him to
                                 attract
                             </p>
-                            <a href="#" class="blog__card-link">
+                            <a href="#" class="blogCard__link">
                                 Read More
                                 <i class="fa-light fa-arrow-right-long"></i>
                             </a>
@@ -655,25 +659,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="footerPart__wrapper">
-                        <img src="/images/Navbar__Logo.png" alt="images/Navbar__Logo.png" class="footerPart__logo" width="156px" height="38px">
-                        <p class="footerPart__summary">
+                    <div class="footerPartWrapper">
+                        <img src="./images/Navbar__Logo.png" alt="images/Navbar__Logo.png"
+                            class="footerPartWrapper__logo" width="156px" height="38px">
+                        <p class="footerPartWrapper__summary">
                             We are always open to discuss your project and improve your online presence.
                         </p>
-                        <div class="footerPart__contactInfo d-flex justify-content-between align-items-center">
-                            <div class="footerPart__contactInfo-mail">
-                                <h5 class="footerPart__contactInfo-mail-heading">
+                        <div class="footerPartWrapperContactInfo d-flex justify-content-between align-items-center">
+                            <div class="footerPartWrapperContactInfoMail">
+                                <h5 class="footerPartWrapperContactInfoMail__heading">
                                     Email me at
                                 </h5>
-                                <p class="footerPart__contactInfo-mail-address">
+                                <p class="footerPartWrapperContactInfoMail__address">
                                     contact@website.com
                                 </p>
                             </div>
-                            <div class="footerPart__contactInfo-phone">
-                                <h5 class="footerPart__contactInfo-phone-heading">
+                            <div class="footerPartWrapperContactInfoPhone">
+                                <h5 class="footerPartWrapperContactInfoPhone__heading">
                                     Call us
                                 </h5>
-                                <p class="footerPart__contactInfo-phone-number">
+                                <p class="footerPartWrapperContactInfoPhone__number">
                                     0927 6277 28525
                                 </p>
                             </div>
@@ -702,17 +707,20 @@
     </footer>
     <!-- ==============================Footer Markup=============================== -->
 
+
     <!-- ==============================CopyRight Markup=============================== -->
     <section id="copyRight">
         <div class="container">
             <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-lg-3">
-                    <h5 class="copyRight__title">
+                <div class="col-lg-3 col-md-12">
+                    <h5
+                        class="copyRight__title text-xxl-start text-xl-start text-lg-start text-md-center py-md-4 text-sm-center py-sm-4 text-center py-4">
                         Copyright 2022, Finsweet.com
                     </h5>
                 </div>
-                <div class="col-lg-5">
-                    <ul class="copyRight__nav-list d-flex justify-content-between align-items-center">
+                <div class="col-lg-5 col-md-12">
+                    <ul
+                        class="copyRight__nav-list d-flex justify-content-lg-between justify-content-xl-between justify-content-xxl-between align-items-center justify-content-md-center justify-content-center">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Features</a></li>

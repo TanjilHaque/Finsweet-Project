@@ -1,0 +1,43 @@
+/* ============================extraLargeDevice CSS================================== */
+@media (max-width: 1399.98px) { 
+    .banner__heading-title {
+        font-size: 36px;
+        line-height: 65px;
+    }
+    .banner__heading-description {
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .content__heading {
+        font-size: 48px;
+        line-height: 68px;
+    }
+    .content__summary {
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .formPart__fillup-summary {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+    .formPart-btn {
+        padding: 16px 110px;
+    }
+    .blog__title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .blogCard__description {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    .footerPart__contactInfo {
+        padding: 16px 80px 16px 37px;
+    }
+    .copyRight__title, .copyRight__nav-list li a {
+        font-size: 13px;
+    }
+ }
+/* ============================extraLargeDevice CSS================================== */
